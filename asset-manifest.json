@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/amolkapadi/Job-Application-React-Js/static/css/main.7dc4c824.css",
+    "main.js": "/amolkapadi/Job-Application-React-Js/static/js/main.d80d20fe.js",
+    "static/media/PersonalData1.png": "/amolkapadi/Job-Application-React-Js/static/media/PersonalData1.b408671e4765528f11b0.png",
+    "static/media/no-results.png": "/amolkapadi/Job-Application-React-Js/static/media/no-results.0dd4675fb9c7ebcdb378.png",
+    "static/media/successfully.png": "/amolkapadi/Job-Application-React-Js/static/media/successfully.3681c0e66d788244dcff.png",
+    "index.html": "/amolkapadi/Job-Application-React-Js/index.html",
+    "main.7dc4c824.css.map": "/amolkapadi/Job-Application-React-Js/static/css/main.7dc4c824.css.map",
+    "main.d80d20fe.js.map": "/amolkapadi/Job-Application-React-Js/static/js/main.d80d20fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dc4c824.css",
+    "static/js/main.d80d20fe.js"
+  ]
+}
