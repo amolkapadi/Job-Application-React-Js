@@ -47,15 +47,23 @@ export default function Review() {
     modal.show();
   };
 
-  const closeModal = ()=>{
-    dispatch(personalInfo({}))
-    dispatch(educationInfo([]))
-    dispatch(workExpInfo([]))
-    dispatch(skillInfo([]))
-    dispatch(additionalInfo([]))
+  const closeModal = () => {
+    dispatch(personalInfo({}));
+    dispatch(educationInfo([]));
+    dispatch(
+      workExpInfo([
+        {
+          companyName: "",
+          jobTitle: "",
+          duration: "",
+        },
+      ])
+    );
+    dispatch(skillInfo([]));
+    dispatch(additionalInfo([]));
     dispatch(setWidth("0%"));
-    navigate('/')
-  }
+    navigate("/");
+  };
 
   return (
     <>
@@ -216,7 +224,9 @@ export default function Review() {
               <h5 className="modal-title" id="exampleModalLabel">
                 Application Send Successfully
               </h5>
-              <p className="mt-5">Thank you <b>{personalReivewData.name}</b> </p>
+              <p className="mt-5">
+                Thank you <b>{personalReivewData.name}</b>{" "}
+              </p>
             </div>
           </div>
         </div>
