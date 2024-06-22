@@ -1,7 +1,7 @@
 {
   "name": "my-app",
-  "version": "0.1.0",
-  "homepage": "https://github.com/amolkapadi/Job-Application-React-Js",
+  "version": "0.1.0", 
+  "homepage": "https://amolkapadi.github.io/Job-Application-React-Js",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.5",
