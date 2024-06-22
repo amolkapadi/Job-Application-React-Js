@@ -1,0 +1,37 @@
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profileTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(169, 209, 244);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000; /* Adjust color as needed */
+}
+.bi{
+    font-size: 20px;
+}
+.contactInfo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .contactInfo i {
+    margin-right: 8px; /* Adjust the space as needed */
+  }
+  
+  .contactInfo p {
+    margin: 0; /* Remove default margin */
+  }
+  .succesfullImg{
+    width: 20%;
+    height: 20%;
+  }

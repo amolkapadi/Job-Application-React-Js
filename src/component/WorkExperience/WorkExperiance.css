@@ -1,0 +1,9 @@
+.btn-success{
+    height: 40px !important;
+    width: 159px;
+}
+.hedingDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

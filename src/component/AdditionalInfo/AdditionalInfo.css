@@ -1,0 +1,32 @@
+.dropzone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Adjust the height as needed */
+    border: 2px dashed #cccccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .selectTxt {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .selected-files {
+    margin-top: 20px;
+  }
+  
+  .selected-files div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .selected-files img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+  }
+ 
