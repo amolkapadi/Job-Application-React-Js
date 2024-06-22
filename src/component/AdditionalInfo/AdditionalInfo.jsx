@@ -23,23 +23,6 @@ export default function AdditionalInfo() {
   const [resumeFiles, setResumeFiles] = useState([]);
   const [errors, setErrors] = useState({});
 
-  // const onDropCoverLetter = useCallback((acceptedFiles) => {
-  //   setCoverLetterFiles(acceptedFiles);
-  // }, []);
-
-  // const onDropResume = useCallback((acceptedFiles) => {
-  //   setResumeFiles(acceptedFiles);
-  // }, []);
-
-  // const { getRootProps: getCoverLetterRootProps, getInputProps: getCoverLetterInputProps } = useDropzone({
-  //   onDrop: onDropCoverLetter,
-  //   accept: 'application/pdf'
-  // });
-
-  // const { getRootProps: getResumeRootProps, getInputProps: getResumeInputProps } = useDropzone({
-  //   onDrop: onDropResume,
-  //   accept: 'application/pdf'
-  // });
   
   const onDrop = (acceptedFiles, setFiles) => {
     setErrors({});
@@ -53,7 +36,7 @@ export default function AdditionalInfo() {
         setErrors(prevErrors => ({ ...prevErrors, size: "File size must be less than 250KB" }));
       }
       return isValidType && isValidSize;
-    });
+    }); 
     setFiles(validFiles);
   };
   const {
@@ -72,29 +55,7 @@ export default function AdditionalInfo() {
     multiple: false
   });
 
-
-
-//   const handleSubmit =()=>{
-//   const allFile = [coverLetterFiles, resumeFiles]
-//   console.log(allFile, "allFiles")
-  
-//   dispatch(setData(allFile))
-//   toast.success("Data Saved Successfully!", {
-//     position: "top-right",
-//     autoClose: 1800,
-//     hideProgressBar: false,
-//     closeOnClick: true,
-//     pauseOnHover: true,
-//     draggable: true,
-//     progress: undefined,
-//     theme: "light",
-//   });
-//   navigate("/review")
-//   dispatch(setWidth("100%"))
-  
-// };
    
-  
 const handleSubmit = (event) => {
   event.preventDefault();
   if (coverLetterFiles.length === 0) {
